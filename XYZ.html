@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="w3data.js"></script> <!--w3data.js FOR LOCALHOST-->
+                                  <!--../w3data.js FOR GITHUB-->
+<div w3-include-html="menu.html"></div>
+<script> w3IncludeHTML(); </script>
+
+<body>
+
+
+
+  <script src="w3data.js"></script>
+  <div w3-include-html="footer.html"></div>
+  <script> w3IncludeHTML(); </script>
+
+  <!--  Scripts-->
+  <script src="https://developers.facebook.com/docs/javascript"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+
+  <script src="js/init.js"></script>
+
+</body>
+</html>
